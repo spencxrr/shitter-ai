@@ -7,7 +7,7 @@ const store = new Store({
     provider: 'gemini',
     geminiKey: '',
     claudeKey: '',
-    geminiModel: 'gemini-2.5-flash-lite',
+    geminiModel: '',
     claudeModel: 'claude-sonnet-5',
     systemPrompt: 'You are analyzing a screenshot the user just took. Give a clear, concise, helpful answer based on what you see. If it\'s a question or quiz, answer it directly. If it\'s code, explain bugs or suggest fixes. Be direct - no fluff.',
     shortcut: 'CommandOrControl+Shift+S',
